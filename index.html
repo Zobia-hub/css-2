@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>css asignment 2</title>
+  <style>
+    body {
+      font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 40px;
+    }
+
+    .card {
+      width: 250px;
+      padding: 20px;
+      border: 1px solid #000000;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px #3838381a;
+      text-align: center;
+    }
+
+    .icon {
+      width: 50px;
+      height: 50px;
+      margin-bottom: 10px;
+      border-radius: 60px;
+    }
+
+    .title {
+      font-size: 1.5em;
+      margin-bottom: 10px;
+    }
+
+    .text {
+      margin-bottom: 10px;
+    }
+
+    .button {
+      background-color: #000;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 20px;
+      cursor: pointer;
+    }
+    #button{
+      background-color:#ff0084;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 20px;
+      cursor: pointer;
+    }
+
+    .card.instagram {
+      background-color: #ff0084;
+      color: #fff;
+      justify-content: center;
+      align-items: center;
+      height: 500;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+      <img src="twitter.png" alt="Twitter Logo" class="icon">
+      <h2 class="title">TWITTER</h2>
+      <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita ullam aliquid non eligendi, nemo est neque reiciendis error?</p>
+      <button class="button">READ MORE</button>
+    </div>
+    <div class="card instagram">
+      <img src="insta.png" alt="Instagram Logo" class="icon" width="90px"; height="90px";>
+      <h2 class="title">INSTAGRAM</h2>
+      <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita ullam aliquid non eligendi, nemo est neque reiciendis error?</p>
+      <button class="button">READ MORE</button>
+    </div>
+    <div class="card">
+      <img src="youtube.png" alt="YouTube Logo" class="icon">
+      <h2 class="title">YOUTUBE</h2>
+      <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita ullam aliquid non eligendi, nemo est neque reiciendis error?</p>
+      <button class="button">READ MORE</button>
+    </div>
+  </div>
+</body>
+</html>
